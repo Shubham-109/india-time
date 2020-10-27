@@ -1,0 +1,251 @@
+*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			scroll-behavior: smooth;
+		}
+		body{
+			overflow-x: hidden;
+		}
+		.list-style-type-none{
+			list-style-type: none;
+		}
+		.black{
+			background: #000;
+		}
+		.times-new{
+			font-family: times new roman;
+		}
+		.bg-orange{
+			background: #ff3300;
+		}
+		.bg-violet{
+			background: linear-gradient(to bottom right ,  #ff0066 48%, #000099 100% );
+		}
+		.line-height{
+			line-height: 45px;
+		}
+		.font-size-start{
+			font-size: 50px;
+		}
+		.min-height{
+			min-height: auto;
+		}
+		.white{
+			color: white!important;
+		}
+		.text-blue{
+			color: #050f7f;
+		}
+		.brown{
+			background: linear-gradient(to top left, #cc0066 50%, #6600ff 101%);
+		}
+		.bold_text{
+			font-size: 25px;
+			font-weight: bold;
+		}
+		.small-font{
+			font-size: 14px;
+		}
+		.bordr-pink{
+			border-bottom: 2px solid #ff0066;
+		}
+		.card-text{
+			line-height: 30px;
+			font-size: 17px;
+		}
+		.text-green-blue{
+			color: #ff3300;
+		}
+		.text-blue-2{
+			color: #000080;
+		}
+		.text-violet{
+			color: #39004d;
+		}
+		/*.anim-start-1{
+			animation: ani-strt 2s linear;
+			animation-delay: 1s;
+		}
+		.anim-start-2{
+			animation: ani-strt 2s linear;
+			animation-delay: 1.5s;
+		}
+		.anim-start-3{
+			animation: ani-strt 2s linear;
+			animation-delay: 2s;
+		}
+		@keyframes ani-strt{
+			0%{
+				transform: translateY(80px);
+				opacity: 0;
+			}
+			100%{
+				transform: translateY(0px);
+				opacity: 1;
+			}
+		}*/
+		.text-basic{
+			color: #ffff00;
+		}
+		.text-ultimate{
+			color:#ff1a1a ;
+		}
+		.text-advanced{
+			color:#39e600 ;
+		}
+		.bottom-bordr:hover{
+            border-bottom: 2px solid #000;
+            cursor: pointer;
+		}
+		.box{
+			width: 200px;
+			height: 200px;
+			position: relative;
+		}
+		.loading_block span{
+			background: lightblue;
+			width: 2rem;
+			height: 2rem;
+			position: absolute;
+			top: 0;
+			left: 0;
+			animation: load 2s linear infinite;
+		}
+		.loading_block span:nth-child(2){
+			background: yellow;
+			animation-delay: .5s;
+		}
+		.loading_block span:nth-child(3){
+			background: red;
+			animation-delay: 1s;
+		}
+		.loading_block span:nth-child(4){
+			background: green;
+			animation-delay: 1.5s;
+		}
+		@keyframes load{
+			0%{
+				top: 0;
+				left: 0;
+			}
+			12.5%{
+				top: 0;
+				left: 50%;
+			}
+			25%{
+				top: 0;
+				left: 50%;
+			}
+			37.5%{
+				top: 50%;
+				left: 50%;
+			}
+			50%{
+				top: 50%;
+				left: 50%;
+			}
+			62.5%{
+				top: 50%;
+				left: 0;
+			}
+			75%{
+				top: 50%;
+				left: 0;
+			}
+			87.5%{
+				top: 0;
+				left: 0;
+			}
+			100%{
+				top: 0;
+				left: 0;
+			}
+		}
+		
+		.about_sec{
+			background: #172197!important;
+		}
+		.about{
+			background: #050f7f;
+		}
+		.light-white{
+			background: #eaeaea;
+		}
+		.light-yellow{
+			background: #9635bb;
+		}
+		.dark-blue{
+			background:#050f7f; 
+		}
+		.icon_size{
+			font-size: 40px;
+			transform-origin: bottom left;
+			transition: .9s ease;
+		}
+		.about:hover .icon_size{
+			transform: rotate(360deg);
+		}
+		.about:hover{
+            box-shadow: 0 14px 10px rgba(0, 0, 0, .12), 0 15px 14px rgba(0,0,0,.54);
+            cursor: pointer;
+		}
+		.circle{
+			border-radius: 50%;
+			height: 90px;
+			width: 90px;
+			animation: tech 3s linear infinite;
+			transition: 2s ease;
+			transform-origin: 0 0 ;
+			position: relative;
+		}
+		@keyframes tech{
+			0%{
+				transform: scale(1);
+			}
+			50%{
+				transform: scale(.8);
+			}
+			100%{
+				transform: scale(1);
+			}
+		}
+		.sticky{
+			top:0 !important;
+			position: sticky!important;
+			z-index: 9000!important;
+			background: #fff;
+		}
+         
+        .crd , .crd{
+			opacity: 0;
+		}
+		.crd.animate__animated , .crd.animate__animated{
+			opacity: 1;
+		}
+
+		.anim-1-p1 , .anim-1-p2{
+			opacity: 0;
+		}
+		.anim-1-p1.animate__animated , .anim-1-p2.animate__animated{
+			opacity: 1;
+		}
+
+		.anim-2-p1 , .anim-2-p2{
+			opacity: 0;
+		}
+		.anim-2-p1.animate__animated , .anim-2-p2.animate__animated{
+			opacity: 1;
+		}
+        .black-btm-brdr{
+        	border-bottom: 2px solid #000;
+        }
+        .i-icon-font{
+        	font-size: 25px;
+        }
+		.icon-c:hover{
+			background: linear-gradient( to top right , #ff0040 0%, #6600cc 70%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			cursor: pointer;
+		}
